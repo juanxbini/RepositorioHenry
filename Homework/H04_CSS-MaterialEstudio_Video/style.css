@@ -7,8 +7,20 @@ h4{
     background-color: brown;
 }
 
+
+
 /*Selectores de clase*/
 
 .title{
     font-size: 40px;
+    color: black;
+}
+.logo{
+    width: 200px;
+}
+
+/*Selectores por id*/
+
+#principal{ 
+    font-size: 70px;
 }
