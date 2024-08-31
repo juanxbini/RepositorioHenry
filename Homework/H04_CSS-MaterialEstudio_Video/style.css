@@ -6,3 +6,9 @@ body{
 h4{
     background-color: brown;
 }
+
+/*Selectores de clase*/
+
+.title{
+    font-size: 40px;
+}
