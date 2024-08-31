@@ -12,7 +12,8 @@ h4{
 /*Selectores de clase*/
 
 .title{
-    font-size: 40px;
+    /* em: medida relativa, cantidad de veces del tamaño base*/
+    font-size: 3em;
     color: black;
 }
 .logo{
@@ -22,5 +23,19 @@ h4{
 /*Selectores por id*/
 
 #principal{ 
-    font-size: 70px;
+    /*Medida relativa*/
+    font-size: 4.5em;
+}
+
+#titulos{
+    border: 2px solid black;
+
+    /*Viewport view, es un 65 del ancho de la pantalla en la que esté.*/
+    width: 60vw;
+
+    /*Centrar*/
+    margin: auto;
+
+    /*Mover su contenido*/
+    padding: 3%;
 }
