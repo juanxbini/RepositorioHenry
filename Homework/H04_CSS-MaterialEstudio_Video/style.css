@@ -16,10 +16,24 @@ h4{
     font-size: 3em;
     color: black;
 }
+
 .logo{
     width: 200px;
 }
 
+.cards{
+    border: 2px solid black;
+    /*Tener el ancho que tu contenido necesita tener*/
+    width: fit-content;
+    padding: 0px 1em 1em 1em;
+    border-radius: 10%;
+    /*Tiempo en el que se daran los cambios de pseudo-clases*/
+    transition: 1s;
+}
+/*Pseudo selector*/
+.cards:hover{
+    background-color: darkgoldenrod;
+}
 /*Selectores por id*/
 
 #principal{ 
