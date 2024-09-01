@@ -19,16 +19,23 @@ h4{
 
 .logo{
     width: 200px;
+    height: 200px;
 }
 
 .cards{
     border: 2px solid black;
     /*Tener el ancho que tu contenido necesita tener*/
     width: fit-content;
-    padding: 0px 1em 1em 1em;
+    padding: 1em 1em 2em 1em;
     border-radius: 10%;
     /*Tiempo en el que se daran los cambios de pseudo-clases*/
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    /* La distancia que hay que tener entre elementos */
+    gap: 2em;
+    /*Define la alineación de los elementos a través del eje horizontal */
+    align-items: center;
 }
 /*Pseudo selector*/
 .cards:hover{
@@ -62,7 +69,11 @@ h4{
     border: 2px solid rgb(113, 99, 99);
     border-radius: 15px;
     padding: 2em;
+    /*Activa la propieda flex en el contenedor*/
     display: flex;
+    /*Define la dirección del flujo de los elementos*/
     flex-direction: row;
+    /*Alinea los elementos a través del eje horizontal*/
     justify-content: space-around;
 }
+
