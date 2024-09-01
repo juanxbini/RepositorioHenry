@@ -10,7 +10,19 @@ body {
 
 #nav_container {
     background-color: red;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.5em;
 }
+#nav_container > ul{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
 #header_container {
     background-color: green;
 }
