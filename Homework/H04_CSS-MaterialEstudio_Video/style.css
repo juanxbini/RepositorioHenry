@@ -53,3 +53,16 @@ h4{
     /*Mover su contenido*/
     padding: 3%;
 }
+/*Flex*/
+#cards-container{
+    background-color: aquamarine;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(113, 99, 99);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
