@@ -25,6 +25,10 @@ body {
 
 #header_container {
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.5em;
 }
 #cards_container {
     background-color: blue;
