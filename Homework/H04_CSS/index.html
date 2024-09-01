@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="style.css">
-      <title>Mi Primer Sitio Web</title>
-   </head>
-   <body>
-      <!-- Contenido de la página va aquí-->
-       <header>
-        <nav>
-            <div>
-                <img src="#" alt="logo">
-            </div>
-            <div>
-                <ul>
-                    <li><a href="#">Enlace_1</a></li>
-                    <li><a href="#">Enlace_2</a></li>
-                    <li><a href="#">Enlace_3</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Primer Sitio Web</title>
+</head>
+
+<body>
+    <!-- Contenido de la página va aquí-->
+    <nav>
+        <div id="nav-logo_container">
+            <img src="#" alt="logo">
+        </div>
+        <div id="nav-list_container">
+            <ul>
+                <li><a href="#">Enlace_1</a></li>
+                <li><a href="#">Enlace_2</a></li>
+                <li><a href="#">Enlace_3</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div id="header_container">
             <h1>Titulo Principal</h1>
             <h3>Descripcion del archivo index.html</h3>
         </div>
-       </header>
-       <main>
-        <section>
-            <div>
+    </header>
+    <main>
+        <section class="cards_container">
+            <div class="card">
                 <h3>Titulo de contenedor 1</h3>
                 <h4>Descripcion del contenedor 1</h4>
                 <button>Boton de accion del contenedor 1</button>
             </div>
-            <div>
+            <div class="card">
                 <h3>Titulo de contenedor 2</h3>
                 <h4>Descripcion del contenedor 2</h4>
                 <button>Boton de accion del contenedor 2</button>
             </div>
         </section>
         <section>
-            <div>
+            <div id="img-desc_container">
                 <img src="#" alt="imagen_descriptiva">
             </div>
-            <div>
+            <div id="desc_container">
                 <h3>Titulo descriptivo</h3>
                 <p>Párrafo que describe el titulo e imagen descriptivos</p>
             </div>
         </section>
-       </main>
-       <footer>
-        <p>Saludo de despedida</p>
-        <a href="#">Enlace de contacto</a>
-       </footer>
-   </body>
+    </main>
+    <footer>
+        <div id="footer_container">
+            <p>Saludo de despedida</p>
+            <a href="#">Enlace de contacto</a>
+        </div>
+    </footer>
+</body>
+
 </html>
