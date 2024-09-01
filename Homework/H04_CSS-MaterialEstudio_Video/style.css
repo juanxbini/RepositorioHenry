@@ -1,4 +1,4 @@
-/*Selector de etiqueta*/
+/*SELECTORES DE ETIQUETA*/
 body{
     background-color: red;
 }
@@ -9,7 +9,7 @@ h4{
 
 
 
-/*Selectores de clase*/
+/*SELECTORES DE CLASE*/
 
 .title{
     /* em: medida relativa, cantidad de veces del tamaño base*/
@@ -41,7 +41,7 @@ h4{
 .cards:hover{
     background-color: darkgoldenrod;
 }
-/*Selectores por id*/
+/*SELECTORES ID*/
 
 #principal{ 
     /*Medida relativa*/
@@ -49,16 +49,17 @@ h4{
 }
 
 #titulos{
-    border: 2px solid black;
-
     /*Viewport view, es un 65 del ancho de la pantalla en la que esté.*/
     width: 60vw;
 
-    /*Centrar*/
+    /*Centrar contenedor*/
     margin: auto;
 
     /*Mover su contenido*/
     padding: 3%;
+
+    display: flex;
+    flex-direction: column;
 }
 /*Flex*/
 #cards-container{
