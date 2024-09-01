@@ -4,3 +4,33 @@ body {
     color: #333;
     margin: 20px;
   }
+
+
+/* CONTAINERS */
+
+#nav_container {
+    background-color: red;
+}
+#header_container {
+    background-color: green;
+}
+#cards_container {
+    background-color: blue;
+}
+#section2_container {
+    background-color: yellow;
+}
+#img-desc_container {
+    background-color: violet;
+}
+#desc_container {
+    background-color: orange;
+}
+#footer_container {
+    background-color: turquoise;
+}
+
+/* CLASES */
+.card {
+    border: 1px solid black;
+}
