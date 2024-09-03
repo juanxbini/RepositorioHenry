@@ -25,28 +25,69 @@ body {
 
 #header_container {
     background-color: green;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 1.5em;
+    
 }
-#cards_container {
-    background-color: blue;
-}
-#section2_container {
-    background-color: yellow;
-}
-#img-desc_container {
-    background-color: violet;
-}
-#desc_container {
-    background-color: orange;
-}
+
 #footer_container {
     background-color: turquoise;
 }
 
 /* CLASES */
-.card {
+.box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: start;
+    padding: 3em;
+}
+
+/*CARD ROW*/
+.cards-container_row {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 1.5em;
+    margin : 1.5em auto;
+}
+.card_column {
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1.5em;
+}
+.btn-container_row{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+/*CARD COLUMN*/
+.cards-container_column {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column; /* Orientación en columna */
+    gap: 20px; /* Espacio entre las tarjetas */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 1.5em auto; /* Centra el contenedor horizontalmente */
+    
+}
+.card_row {
+    border: 1px solid #ccc; /* Bordes opcionales para las tarjetas */
+    display: flex;
+    flex-direction: row; /* Coloca el contenido de la tarjeta en fila en pantallas pequeñas */
+    overflow: hidden; /* Para evitar que el contenido se salga del borde redondeado */
+    padding: 20px; /* Espaciado interno */
+}
+.box-img_row img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Ajusta la imagen al contenedor, recortando si es necesario */
+    margin-bottom: 15px; /* Espacio entre la imagen y el texto */
+}
+.box-text_row{
+    margin-left: 1em;
 }

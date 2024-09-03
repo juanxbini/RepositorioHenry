@@ -22,31 +22,65 @@
         </div>
     </nav>
     <header>
-        <div id="header_container">
+        <div id="header_container" class="box-text">
             <h1>Titulo Principal</h1>
             <h3>Descripcion del archivo index.html</h3>
         </div>
     </header>  
     <main>
-        <section id="cards_container">
-            <div class="card">
+        <section class="cards-container_row">
+            <div class="card_column">
                 <h3>Titulo de contenedor 1</h3>
                 <h4>Descripcion del contenedor 1</h4>
-                <button>Boton de accion del contenedor 1</button>
+                <div class="btn-container_row">
+                    <button>Action 1</button>
+                    <button>Action 2</button>
+                </div>
             </div>
-            <div class="card">
+            <div class="card_column">
                 <h3>Titulo de contenedor 2</h3>
                 <h4>Descripcion del contenedor 2</h4>
-                <button>Boton de accion del contenedor 2</button>
+                <div class="btn-container_row">
+                    <button>Action 1</button>
+                    <button>Action 2</button>
+                </div>
+            </div>
+            <div class="card_column">
+                <h3>Titulo de contenedor 2</h3>
+                <h4>Descripcion del contenedor 2</h4>
+                <div class="btn-container_row">
+                    <button>Action 1</button>
+                    <button>Action 2</button>
+                </div>
             </div>
         </section>
-        <section id="section2_container">
-            <div id="img-desc_container">
-                <img src="#" alt="imagen_descriptiva">
+        <section class="cards-container_column">
+            <div class="card_row">
+                <div class="box-img_row">
+                    <img src="./img/css-logo.png" alt="">
+                </div>
+                <div class="box-text_row">
+                    <h3>Titulo de tarjeta row</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore minus blanditiis eaque sunt vel. Saepe error rem aperiam nobis consequatur aspernatur illo voluptas sequi. Repellat ipsam ea veritatis aliquam est.</p>
+                </div>
             </div>
-            <div id="desc_container">
-                <h3>Titulo descriptivo</h3>
-                <p>Párrafo que describe el titulo e imagen descriptivos</p>
+            <div class="card_row">
+                <div class="box-img_row">
+                    <img src="./img/css-logo.png" alt="">
+                </div>
+                <div class="box-text_row">
+                    <h3>Titulo de tarjeta row</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore minus blanditiis eaque sunt vel. Saepe error rem aperiam nobis consequatur aspernatur illo voluptas sequi. Repellat ipsam ea veritatis aliquam est.</p>
+                </div>
+            </div>
+            <div class="card_row">
+                <div class="box-img_row">
+                    <img src="./img/css-logo.png" alt="">
+                </div>
+                <div class="box-text_row">
+                    <h3>Titulo de tarjeta row</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore minus blanditiis eaque sunt vel. Saepe error rem aperiam nobis consequatur aspernatur illo voluptas sequi. Repellat ipsam ea veritatis aliquam est.</p>
+                </div>
             </div>
         </section>
     </main>
