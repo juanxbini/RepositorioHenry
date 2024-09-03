@@ -7,27 +7,50 @@ body {
 
 
 /* CONTAINERS */
-
+/*NAV*/
 #nav_container {
-    background-color: red;
+    background-color: rgb(158, 158, 158);
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 1.5em;
+    margin-bottom: 0.5em;
 }
 #nav_container > ul{
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1em;
 }
-
-#header_container {
-    background-color: green;
-    
+#nav_container a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav_container img{
+    width: 6em; /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; 
 }
 
+
+/*HEADER*/
+#header_container {
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+}
+#header_container h1{
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+#header_container p{
+    color: #f4f4f4;
+}
+/*FOOTER*/
 #footer_container {
     background-color: turquoise;
     display: flex;
@@ -37,7 +60,7 @@ body {
     margin-top: 1.5em;
 }
 
-/* CLASES */
+/* SECTIONS */
 .box-text{
     display: flex;
     flex-direction: column;
@@ -50,17 +73,19 @@ body {
 /*CARD ROW*/
 .cards-container_row {
     background-color: blue;
+    height: 250px;
+    max-height: 350px;
     display: flex;
     justify-content: center;
     gap: 2em;
-    padding: 1.5em;
+    padding: 0px 1.5em;
     margin : 1.5em auto;
 }
 .card_column {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    justify-content: space-around;
     padding: 1.5em;
 }
 .btn-container_row{
@@ -94,4 +119,7 @@ body {
 }
 .box-text_row{
     margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
 }
