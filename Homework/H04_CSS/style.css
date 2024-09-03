@@ -144,17 +144,15 @@ body {
     margin: auto 1.5em;
 }
 .box-img_row{
-    width: 50%;
     max-width: 50%;
 }
 
 .box-img_row img {
-    background: #f4f4f4;
     width: 100%;
     /* La imagen ocupará el 100% del ancho de su contenedor */
     height: 100%;
     /* Mantiene la proporción de la imagen */
-    object-fit: fill;
+    object-fit: contain;
     /* Ajusta la imagen al contenedor, recortando si es necesario */
     margin-bottom: 15px;
     /* Espacio entre la imagen y el texto */
