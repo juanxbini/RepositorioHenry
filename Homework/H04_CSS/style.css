@@ -122,12 +122,17 @@ body {
     gap: 20px;
     width: 100%;
     padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 .card_row {
     /* Bordes opcionales para las tarjetas */
     background-color: #e0e0e0;
     border: 1px solid #ccc;
+    box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.51);
+   
     height: 350px;
     display: flex;
     /* Coloca el contenido de la tarjeta en fila en pantallas pequeñas */
