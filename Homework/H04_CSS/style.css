@@ -30,6 +30,11 @@ body {
 
 #footer_container {
     background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 1.5em;
+    margin-top: 1.5em;
 }
 
 /* CLASES */
@@ -72,8 +77,6 @@ body {
     gap: 20px; /* Espacio entre las tarjetas */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
     max-width: 1200px; /* Ancho máximo del contenedor */
-    margin: 1.5em auto; /* Centra el contenedor horizontalmente */
-    
 }
 .card_row {
     border: 1px solid #ccc; /* Bordes opcionales para las tarjetas */
@@ -81,6 +84,7 @@ body {
     flex-direction: row; /* Coloca el contenido de la tarjeta en fila en pantallas pequeñas */
     overflow: hidden; /* Para evitar que el contenido se salga del borde redondeado */
     padding: 20px; /* Espaciado interno */
+    margin: auto 1.5em;
 }
 .box-img_row img {
     width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
