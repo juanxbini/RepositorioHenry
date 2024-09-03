@@ -60,12 +60,14 @@ body {
 
 /*FOOTER*/
 #footer_container {
-    background-color: turquoise;
+    background-color: rgb(175, 175, 175);
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2em;
     padding: 1.5em;
     margin-top: 1.5em;
+    height: 80px;
 }
 
 /* SECTIONS */
