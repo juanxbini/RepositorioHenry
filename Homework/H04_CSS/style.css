@@ -3,34 +3,39 @@ body {
     background-color: #f4f4f4;
     color: #333;
     margin: 20px;
-  }
+}
 
 
 /* CONTAINERS */
 /*NAV*/
 #nav_container {
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(175, 175, 175);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 1.5em;
     margin-bottom: 0.5em;
 }
-#nav_container > ul{
+
+#nav_container>ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1em;
 }
-#nav_container a{
+
+#nav_container a {
     color: #333;
     text-decoration: none;
     font-weight: bold;
 }
-#nav_container img{
-    width: 6em; /* La imagen ocupará el 100% del ancho de su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: cover; 
+
+#nav_container img {
+    width: 6em;
+    /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    object-fit: cover;
 }
 
 
@@ -42,14 +47,17 @@ body {
     background-position: center center;
     height: 300px;
 }
-#header_container h1{
+
+#header_container h1 {
     color: #f4f4f4;
     font-weight: bold;
     font-size: 2.5em;
 }
-#header_container p{
+
+#header_container p {
     color: #f4f4f4;
 }
+
 /*FOOTER*/
 #footer_container {
     background-color: turquoise;
@@ -61,7 +69,7 @@ body {
 }
 
 /* SECTIONS */
-.box-text{
+.box-text {
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -72,52 +80,75 @@ body {
 
 /*CARD ROW*/
 .cards-container_row {
-    background-color: blue;
-    height: 250px;
-    max-height: 350px;
     display: flex;
     justify-content: center;
     gap: 2em;
     padding: 0px 1.5em;
-    margin : 1.5em auto;
+    margin: 1.5em auto;
 }
+
 .card_column {
-    border: 1px solid black;
+    box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.51);
+    -webkit-box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 5px 4px 5px 2px rgba(0, 0, 0, 0.51);
+    background-color: #e0e0e0;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: start;
     padding: 1.5em;
 }
-.btn-container_row{
+
+.card_column h3 {
+    margin-bottom: 1.5em;
+}
+
+.card_column p {
+    margin-bottom: 3em;
+}
+
+.btn-container_row {
     display: flex;
-    justify-content: flex-start;
-    gap: 1em;
+    gap: 1.5em;
+    margin-bottom: 0px;
 }
 
 /*CARD COLUMN*/
 .cards-container_column {
     background-color: yellow;
     display: flex;
-    flex-direction: column; /* Orientación en columna */
-    gap: 20px; /* Espacio entre las tarjetas */
-    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-    max-width: 1200px; /* Ancho máximo del contenedor */
+    flex-direction: column;
+    /* Orientación en columna */
+    gap: 20px;
+    /* Espacio entre las tarjetas */
+    width: 100%;
+
 }
+
 .card_row {
-    border: 1px solid #ccc; /* Bordes opcionales para las tarjetas */
+    border: 1px solid #ccc;
+    /* Bordes opcionales para las tarjetas */
     display: flex;
-    flex-direction: row; /* Coloca el contenido de la tarjeta en fila en pantallas pequeñas */
-    overflow: hidden; /* Para evitar que el contenido se salga del borde redondeado */
-    padding: 20px; /* Espaciado interno */
+    flex-direction: row;
+    /* Coloca el contenido de la tarjeta en fila en pantallas pequeñas */
+    overflow: hidden;
+    /* Para evitar que el contenido se salga del borde redondeado */
+    padding: 20px;
+    /* Espaciado interno */
     margin: auto 1.5em;
 }
+
 .box-img_row img {
-    width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: cover; /* Ajusta la imagen al contenedor, recortando si es necesario */
-    margin-bottom: 15px; /* Espacio entre la imagen y el texto */
+    width: 100%;
+    /* La imagen ocupará el 100% del ancho de su contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    object-fit: cover;
+    /* Ajusta la imagen al contenedor, recortando si es necesario */
+    margin-bottom: 15px;
+    /* Espacio entre la imagen y el texto */
 }
-.box-text_row{
+
+.box-text_row {
     margin-left: 1em;
     display: flex;
     flex-direction: column;
