@@ -114,41 +114,50 @@ body {
 
 /*CARD COLUMN*/
 .cards-container_column {
-    background-color: yellow;
+    background-color: rgb(175, 175, 175);
     display: flex;
-    flex-direction: column;
     /* Orientación en columna */
-    gap: 20px;
+    flex-direction: column;
     /* Espacio entre las tarjetas */
+    gap: 20px;
     width: 100%;
-
+    padding-top: 1.5em;
 }
 
 .card_row {
-    border: 1px solid #ccc;
     /* Bordes opcionales para las tarjetas */
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    height: 350px;
     display: flex;
-    flex-direction: row;
     /* Coloca el contenido de la tarjeta en fila en pantallas pequeñas */
-    overflow: hidden;
+    flex-direction: row;
     /* Para evitar que el contenido se salga del borde redondeado */
-    padding: 20px;
+    overflow: hidden;
     /* Espaciado interno */
+    padding: 20px;
     margin: auto 1.5em;
+}
+.box-img_row{
+    width: 50%;
+    max-width: 50%;
 }
 
 .box-img_row img {
+    background: #f4f4f4;
     width: 100%;
     /* La imagen ocupará el 100% del ancho de su contenedor */
-    height: auto;
+    height: 100%;
     /* Mantiene la proporción de la imagen */
-    object-fit: cover;
+    object-fit: fill;
     /* Ajusta la imagen al contenedor, recortando si es necesario */
     margin-bottom: 15px;
     /* Espacio entre la imagen y el texto */
 }
 
 .box-text_row {
+    width: 100%;
+    max-width: 50%;
     margin-left: 1em;
     display: flex;
     flex-direction: column;
