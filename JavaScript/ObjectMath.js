@@ -31,6 +31,7 @@ console.log(ceil)
 var max = Math.max(1,2,3,4,5)
 // 5 
 console.log(max);
+
 var min = Math.min(1,2,3,4,5)
 // 1
 console.log(min)
